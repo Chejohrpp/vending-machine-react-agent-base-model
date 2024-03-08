@@ -43,6 +43,7 @@ class VendingMachineModel:
 
     
     def printValues(self,presentStatus, presentAction,textToPrint):
+        print("--------------------------------")
         print("\nCurrently Status: " + presentStatus)
         print("Currently Action: " + presentAction + "\n")
         print(textToPrint)
